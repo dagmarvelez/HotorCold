@@ -82,3 +82,8 @@ h3{
     width: 75px;
     border: 1px solid #dcdcdc;
 }
+#button{
+   border-radius: 4px;
+   background-color: #5882fa ;
+   border: 1px solid gray;
+}
