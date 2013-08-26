@@ -52,9 +52,20 @@ body{
 }
 h1{
     font-family: verdana;
-    margin-bottom: 20px;
-    
-
+    font-size: 30px;
+    margin: auto 30px;
+    color: #585858;
+}
+h4{
+   font-family: baskerville;
+   font-size: 18px;
+   margin: auto 30px;
+}
+h3{
+   font-family: verdana;
+   font-size: 25px;
+   color: #585858;
+   margin: auto 10px;
 }
 .guess-box{
     margin: auto;
