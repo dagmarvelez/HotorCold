@@ -1,4 +1,4 @@
-$(document).ready(function()){
+$(document).ready(function(){
 	
 $(".button").on("mouseenter", function(){
 	$("h1").hide();
@@ -15,4 +15,4 @@ else if(isNaN(guess) == true || guess > 100 || guess < 0 || guess === '')
 	
 	
 	
-};
+});
