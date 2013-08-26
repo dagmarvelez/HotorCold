@@ -1,7 +1,8 @@
 $(document).ready(function()){
 	
-$(#guess-bar).
-
+$(".button").on("mouseenter", function(){
+	$("h1").hide();
+});
 var randomnumber = Math.floor( Math.random()*101);
 
 var answer = prompt("How many balls do I have left?");
