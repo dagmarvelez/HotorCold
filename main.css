@@ -91,4 +91,5 @@ h3{
    text-align: center;
    height: 30px;
    width: 60px;
+   z-index: 1;
 }
