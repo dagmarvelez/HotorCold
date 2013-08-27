@@ -24,9 +24,9 @@ function submit(){
 	else if ((guess-answer) > Math.abs(20)){
 		console.log("You're getting colder!");
 	}
-	else if(isNaN(guess) === true && guess > 100 && guess < 0 && guess === ''){
-		alert ("Please enter a number between 0 and 100.");
-	}
+	//else if(isNaN(guess) === true && guess > 100 && guess < 0 && guess === ''){
+		//alert ("Please enter a number between 0 and 100.");
+	//}
 }	
 	
 });
