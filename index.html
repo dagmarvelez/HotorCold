@@ -10,22 +10,24 @@
 <body style ="background-color: #e6e6e6">
 
 	<h1>HOT or COLD?</h1>
-	<h4>This is my tennis ball machine.<br>It holds 100 tennis balls, but I<br>don't know how many I've hit!</h4>
-	<div class="guess-box">
-		<h3>Can you guess how many are left?</h3>
+	<!--<h4>This is my tennis ball machine.<br>It holds 100 tennis balls, but I<br>don't know how many I've hit!</h4>
+	<div class="guess-box">-->
+		<h3>Guess a number between 1 and 100?</h3>
 		<div id="guess-bar">
-			<input type="text" name="guess" maxlength="3">
+			<input type="text" id="guess" maxlength="3">
 		</div>
 		
 		<div class ="button" id="guess-button">Guess</div>
-		<h4 id="warmer-comment">You're getting closer!</h4>
-		<h4 id="colder-comment">You're getting farther away!</h4>
-		<h4 id="win-comment">You win!</h4>
+		<div class="comment">
+			<h4 id="hot">You're getting closer!</h4>
+			<h4 id="cold">You're getting farther away!</h4>
+			<h4 id="win">You win!</h4>
+		</div>
 	</div>
-	<span class="button" id="giveup-button">Give Up</span>
-	<span class="button" id="newgame-button">New Game</span>
-	<div class="ball-machine">
+	<!--<span class="button" id="giveup-button">Give Up</span>-->
+	<span class="button" id="newgame">New Game</span>
+	<!--<div class="ball-machine">
 		<img src="http://a248.e.akamai.net/origin-cdn.volusion.com/25j5t.bh7fa/v/vspfiles/photos/ST-Wilson-2.jpg?1314953776" alt="ball machine"/>
-	</div>
+	</div>-->
 	
 </html>
