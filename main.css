@@ -93,9 +93,9 @@ h3{
    width: 60px;
    z-index: 1;
 }
-/*.comment{
+.comment{
   display: none;
-}*/
+}
 .visible-comment{
   display: inline-block !important;
 }
