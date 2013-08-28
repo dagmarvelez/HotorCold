@@ -75,6 +75,7 @@ h3{
     background-color: purple;
     height: 200px;
     width: 250px;
+    text-align: center;
 }
 #guess-bar{
     position: auto;
