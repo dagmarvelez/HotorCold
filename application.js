@@ -3,9 +3,8 @@ $(document).ready(function(){
 //generates a number between 0 and 100
 var answer = Math.floor( Math.random()*101);
 
-var guess = $("#guess").val();
-
 function(submitGuess){
+	var guess = $("#guess").val();
 	if (guess == answer){
 		$("#win").addClass("visible-comment");
 	}
