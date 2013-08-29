@@ -1,16 +1,15 @@
 $(document).ready(function(){
 
 var answer = generateNewAnswer();
-
-function generateNewAnswer()){
 	
 $("#guess-button").on("click", function(event){
 //if(enter.keyCode == 13){
 	submitGuess(event);	
-}
+)};
+
 function generateNewAnswer(){
 	return Math.floor(Math.random()*101);
-}
+};
 
 function(submitGuess){
 	
@@ -29,10 +28,7 @@ function(submitGuess){
 		$("#error").addClass("visible-comment");
 	}
 
-
-
-	
-});
+};
 	
 });
 
