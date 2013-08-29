@@ -15,18 +15,18 @@ function(submitGuess){
 	
 	var guess = $("#guess").val();
 	
-	if (guess == answer)
+	if (guess === answer){
 		$("#win").addClass("visible-comment");
-	
-	else if (Math.abs(guess-answer) <= 15)
+	}
+	else if (Math.abs(guess-answer) <= 15){
 		$("#warm").addClass("visible-comment");
-		
-	else if (Math.abs(guess-answer) > 15)
+	}
+	else if (Math.abs(guess-answer) > 15){
 		$("#cold").addClass("visible-comment");
-	
-	else if(guess > 100 && guess < 0 && isNaN(guess)===true)
+	}
+	else if(guess > 100 && guess < 0 && isNaN(guess)===true){
 		$("#error").addClass("visible-comment");
-	
+	}
 
 };
 	
