@@ -1,7 +1,5 @@
 $(document).ready(function(){
 
-alert("this doesn't work!");
-
 var answer = generateNewAnswer();
 	
 $("#guess-button").on("click", function(){
@@ -33,7 +31,5 @@ function(submitGuess){
 };
 	
 });
-
-alert("this doesn't work!");
 
 };
