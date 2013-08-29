@@ -5,7 +5,7 @@ var answer = generateNewAnswer();
 $("#guess-button").on("click", function(){
 //if(enter.keyCode == 13){
 	submitGuess();	
-)};
+});
 
 function generateNewAnswer(){
 	return Math.floor(Math.random()*101);
