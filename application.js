@@ -32,4 +32,6 @@ function(submitGuess){
 	
 });
 
+alert("this doesn't work!");
+
 };
