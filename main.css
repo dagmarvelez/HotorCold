@@ -47,57 +47,113 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-body{
-    margin-top: 50px;
-    text-align: center;
+
+/*CSS starts*/
+
+#page-background{
+  display: none;
 }
+
 h1{
+    margin-top: 50px;
     font-family: verdana;
-    font-size: 30px;
+    font-size: 40px;
     color: #585858;
     padding: auto 30px;
+    text-decoration: underline;
 }
+  #red{
+    color: red;
+  }
+  #blue{
+    color: #5882fa;
+  }
 h4{
-   font-family: baskerville;
+   margin: 30px;
+   font-family: verdana;
+   font-style: italic;
    font-size: 18px;
    padding: auto 30px;
 }
 h3{
+   margin: 30px;
    font-family: verdana;
-   font-size: 25px;
-   color: #585858;
+   font-size: 30px;
+   color: #5882fa;
    padding: auto 10px;
+   text-shadow: 0 1px 0 #585858;
+   white-space: nowrap;
+}
+.ball-machine{
+  position: absolute;
+  margin-left: 200px;
 }
 .guess-box{
-    position: relative;
-    border-radius: 4px;
-    border: 1px solid black;
-    background-color: purple;
-    height: 200px;
-    width: 250px;
-    text-align: center;
+  position: absolute;
+  margin-left: 600px;
+  height: 350px;
+  width: 500px;
+  border: 3px solid #585858;
+  border-radius: 4px;
+  background: linear-gradient(white, yellow);
+  white-space: nowrap;
 }
-#guess-bar{
-    position: auto;
-    border-color:blue;
-    height: 50px;
-    width: 75px;
-    border: 1px solid #dcdcdc;
-    font-size: 30px;
+  .green-background{
+    background: linear-gradient(white, green) !important;
+  }
+  .red-background{
+    background: linear-gradient(white, red) !important;
+  }
+  .orange-background{
+    background: linear-gradient(white, orange) !important;
+  }
+  .blue-background{
+    background: linear-gradient(white, blue) !important;
+  }
+h2{
+  margin: 30px;
+  font-size: 30px;
+  color: #585858;
+  font-style: italic;
 }
-.button{
+#guess-bar *{
+  margin-bottom: 20px;
+  height: 40px;
+  width: 50px;
+  font-size: 30px;
+  text-align: right;
+  color: #585858;
+  font-family: fantasy;
+  padding: 10px;
+  border-radius: 4px;
+}
+.button *{
+   position: static;
+   margin: 10px;
    border-radius: 4px;
-   background-color: #5882fa ;
-   border: 1px solid gray;
-   padding: 5px;
+   background: linear-gradient(#5882fa, #0431B4);
+   border: .5px solid black;
+   padding: 10px;
    text-align: center;
-   height: 30px;
-   width: 60px;
-   z-index: 1;
+   cursor: pointer;
+   margin-top: 30px;
+   height: 20px;
+   width: 70px;
+   color: white;
 }
+  .button *:hover{
+    opacity: .75;
+  }
 .comment{
-  display: none;
+
+}
+  .comment h4 {
+    display: none;
 }
 .visible-comment{
   display: inline-block !important;
+  margin-top: 45px;
+  font-size: 25px;
+  font-family: verdana;
+  color: white;
 }
