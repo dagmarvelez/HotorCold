@@ -1,0 +1,159 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+ 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: arial;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    text-align: center;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*CSS starts*/
+
+#page-background{
+  display: none;
+}
+
+h1{
+    margin-top: 50px;
+    font-family: verdana;
+    font-size: 40px;
+    color: #585858;
+    padding: auto 30px;
+    text-decoration: underline;
+}
+  #red{
+    color: red;
+  }
+  #blue{
+    color: #5882fa;
+  }
+h4{
+   margin: 30px;
+   font-family: verdana;
+   font-style: italic;
+   font-size: 18px;
+   padding: auto 30px;
+}
+h3{
+   margin: 30px;
+   font-family: verdana;
+   font-size: 30px;
+   color: #5882fa;
+   padding: auto 10px;
+   text-shadow: 0 1px 0 #585858;
+   white-space: nowrap;
+}
+.ball-machine{
+  position: absolute;
+  margin-left: 200px;
+}
+.guess-box{
+  position: absolute;
+  margin-left: 600px;
+  height: 350px;
+  width: 500px;
+  border: 3px solid #585858;
+  border-radius: 4px;
+  background: linear-gradient(white, yellow);
+  white-space: nowrap;
+}
+  .green-background{
+    background: linear-gradient(white, green) !important;
+  }
+  .red-background{
+    background: linear-gradient(white, red) !important;
+  }
+  .orange-background{
+    background: linear-gradient(white, orange) !important;
+  }
+  .blue-background{
+    background: linear-gradient(white, blue) !important;
+  }
+h2{
+  margin: 30px;
+  font-size: 30px;
+  color: #585858;
+  font-style: italic;
+}
+#guess-bar *{
+  margin-bottom: 20px;
+  height: 40px;
+  width: 50px;
+  font-size: 30px;
+  text-align: right;
+  color: #585858;
+  font-family: fantasy;
+  padding: 10px;
+  border-radius: 4px;
+}
+.button *{
+   position: static;
+   margin: 10px;
+   border-radius: 4px;
+   background: linear-gradient(#5882fa, #0431B4);
+   border: .5px solid black;
+   padding: 10px;
+   text-align: center;
+   cursor: pointer;
+   margin-top: 30px;
+   height: 20px;
+   width: 70px;
+   color: white;
+}
+  .button *:hover{
+    opacity: .75;
+  }
+.comment{
+
+}
+  .comment h4 {
+    display: none;
+}
+.visible-comment{
+  display: inline-block !important;
+  margin-top: 45px;
+  font-size: 25px;
+  font-family: verdana;
+  color: white;
+}

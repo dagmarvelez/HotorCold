@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<title>Hot or Cold</title>
+		<link type="text/css" rel="stylesheet" href="main.css"/>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="application.js"> </script>
+
+	</head>	
+
+	<body>
+
+		<div id="page-background"><img src="http://newsimg.bbc.co.uk/media/images/48163000/gif/_48163644_murraybow.gif" width="100%" height="100%" alt="players bowing after winning"></div>
+
+			<h1><span id="red">HOT </span> or <span id="blue">COLD</span>?</h1>
+	
+			<h3>This is my ball machine. It<br>holds 100 tennis balls, but I<br>don't know how many I've hit!</h3>
+
+		<div class="ball-machine">
+			<img src="http://www.nofaultsports.com/Tennisfolder/ball_machines/big_machines/wilson.jpg" alt=""/>
+		</div>
+
+		<div class="guess-box">
+			<h2> Can you guess how many are left?</h2>
+			<div id="guess-bar"><input type="text" id="guess" maxlength="3"></div>
+			<br>
+			<br>
+			<div class="button">
+				<span id="guess-button">Guess!</span>
+				<span id="newgame-button">New Game</span>
+			</div>
+			<span class="comment">
+				<h4 id="win">Game, Set, Match. Good Job!</h4>
+				<h4 id="hot">You're so hot!</h4>
+				<h4 id="warm">Getting warmer!</h4>
+				<h4 id="cold">Nope, that's not even close.</h4>
+			</span>
+		</div>
+</div>
+
+</body>	
+</html>
