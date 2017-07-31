@@ -1,4 +1,4 @@
 HotorCold
 =========
 
-This is a guessing game.
+This is a cool guessing fame. 
