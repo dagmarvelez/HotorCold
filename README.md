@@ -1,4 +1,4 @@
 HotorCold
 =========
 
-This is a cool guessing fame. Isn't it?
+This is a cool guessing fame. 
